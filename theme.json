@@ -45,6 +45,24 @@
 		"typography": {
 			"fontFamilies": [
 				{
+					"name": "Manrope",
+					"slug": "manrope",
+					"fontFamily": "Manrope, sans-serif",
+					"fontFace": [
+						{
+							"src": [
+								"file:./assets/fonts/manrope/Manrope-VariableFont_wght.woff2"
+							],
+							"fontWeight": "200 800",
+							"fontStyle": "normal",
+							"fontFamily": "Manrope"
+						}
+					]
+				},
+				{
+					"fontFamily": "\"Space Mono\", monospace",
+					"name": "Space Mono",
+					"slug": "space-mono",
 					"fontFace": [
 						{
 							"fontFamily": "\"Space Mono\"",
@@ -62,10 +80,7 @@
 								"file:./assets/fonts/space-mono/space-mono-400-italic.woff2"
 							]
 						}
-					],
-					"fontFamily": "\"Space Mono\", monospace",
-					"name": "Space Mono",
-					"slug": "space-mono"
+					]
 				}
 			]
 		}
@@ -76,6 +91,9 @@
 				"typography": {
 					"fontFamily": "var(--wp--preset--font-family--space-mono)"
 				}
+			},
+			"core/quote": {
+				"css": "& cite { font-family: var(--wp--preset--font-family--space-mono); }"
 			}
 		}
 	},
