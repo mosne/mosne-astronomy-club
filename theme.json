@@ -41,6 +41,42 @@
 					"slug": "accent-5"
 				}
 			]
+		},
+		"typography": {
+			"fontFamilies": [
+				{
+					"fontFace": [
+						{
+							"fontFamily": "\"Space Mono\"",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/space-mono/space-mono-400-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "\"Space Mono\"",
+							"fontStyle": "italic",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/space-mono/space-mono-400-italic.woff2"
+							]
+						}
+					],
+					"fontFamily": "\"Space Mono\", monospace",
+					"name": "Space Mono",
+					"slug": "space-mono"
+				}
+			]
+		}
+	},
+	"styles": {
+		"blocks": {
+			"core/post-date": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--space-mono)"
+				}
+			}
 		}
 	},
 	"version": 3,
