@@ -1,0 +1,48 @@
+{
+	"settings": {
+		"color": {
+			"defaultDuotone": true,
+			"defaultGradients": true,
+			"defaultPalette": false,
+			"palette": [
+				{
+					"color": "#FFFFFF",
+					"name": "Base",
+					"slug": "base"
+				},
+				{
+					"color": "#111111",
+					"name": "Contrast",
+					"slug": "contrast"
+				},
+				{
+					"color": "#FFEE58",
+					"name": "Accent 1",
+					"slug": "accent-1"
+				},
+				{
+					"color": "#0099CC",
+					"name": "Accent 2",
+					"slug": "accent-2"
+				},
+				{
+					"color": "#003265",
+					"name": "Accent 3",
+					"slug": "accent-3"
+				},
+				{
+					"color": "#686868",
+					"name": "Accent 4",
+					"slug": "accent-4"
+				},
+				{
+					"color": "#F3F3F3",
+					"name": "Accent 5",
+					"slug": "accent-5"
+				}
+			]
+		}
+	},
+	"version": 3,
+	"$schema": "https://schemas.wp.org/wp/6.7/theme.json"
+}
