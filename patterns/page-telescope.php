@@ -16,8 +16,8 @@
 			<h2 class="wp-block-heading has-text-align-left has-xx-large-font-size">L'image de la semaine</h2>
 			<!-- /wp:heading -->
 
-			<!-- wp:paragraph -->
-			<p>M80 et M81 la galzie de Bode<br>par </p>
+			<!-- wp:paragraph {"className":"is-style-notes"} -->
+			<p class="is-style-notes">M80 et M81 : <em>Le cigare et la galaxie de Boode</em> par ...</p>
 			<!-- /wp:paragraph -->
 
 			<!-- wp:buttons -->
@@ -30,6 +30,14 @@
 
 <!-- wp:group {"align":"wide","layout":{"type":"default"}} -->
 <div class="wp-block-group alignwide"><!-- wp:spacer {"height":"var:preset|spacing|50"} -->
+	<div style="height:var(--wp--preset--spacing--50)" aria-hidden="true" class="wp-block-spacer"></div>
+	<!-- /wp:spacer -->
+
+	<!-- wp:paragraph {"align":"center","className":"is-style-small-caps","style":{"elements":{"link":{"color":{"text":"var:preset|color|base"}}},"border":{"radius":"18px"}},"backgroundColor":"aler","textColor":"base"} -->
+	<p class="has-text-align-center is-style-small-caps has-base-color has-aler-background-color has-text-color has-background has-link-color" style="border-radius:18px">Ce vendredi, le club sera exceptionnellement fermé</p>
+	<!-- /wp:paragraph -->
+
+	<!-- wp:spacer {"height":"var:preset|spacing|50"} -->
 	<div style="height:var(--wp--preset--spacing--50)" aria-hidden="true" class="wp-block-spacer"></div>
 	<!-- /wp:spacer -->
 
@@ -54,12 +62,16 @@
 <div class="wp-block-group alignfull" style="margin-top:0;margin-bottom:0"><!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"top":"var:preset|spacing|50","bottom":"var:preset|spacing|50"},"blockGap":"var:preset|spacing|50"}},"layout":{"type":"grid","minimumColumnWidth":"26rem"}} -->
 	<div class="wp-block-group alignwide" style="padding-top:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--50)"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|50"}},"layout":{"type":"flex","orientation":"vertical","verticalAlignment":"space-between","justifyContent":"stretch","flexWrap":"nowrap"}} -->
 		<div class="wp-block-group"><!-- wp:group {"layout":{"type":"flex","orientation":"vertical","justifyContent":"left"}} -->
-			<div class="wp-block-group"><!-- wp:heading {"className":"is-style-text-annotation"} -->
-				<h2 class="wp-block-heading is-style-text-annotation">Sessions Astrophotographie</h2>
+			<div class="wp-block-group"><!-- wp:heading {"className":"is-style-small-caps"} -->
+				<h2 class="wp-block-heading is-style-small-caps">Sessions Astrophotographie</h2>
 				<!-- /wp:heading -->
 
-				<!-- wp:paragraph {"className":"is-style-text-subtitle"} -->
-				<p class="is-style-text-subtitle">Nous réservons deux samedis soirs par mois pour organiser des sorties entre membres à une soixantaine de kilomètres de Paris afin de pratiquer l’astronomie à l’abri des lumières des villes.<br>Nous proposons régulièrement des conférences et des ateliers sur des sujets très variés : du matériel à la découverte du ciel en passant par l’imagerie. Vous trouverez sur la page agenda le détail de notre programmation.</p>
+				<!-- wp:paragraph {"className":"is-style-bolder"} -->
+				<p class="is-style-bolder">Nous réservons deux samedis soirs par mois pour organiser des sorties entre membres à une soixantaine de kilomètres de Paris afin de pratiquer l’astronomie à l’abri des lumières des villes.</p>
+				<!-- /wp:paragraph -->
+
+				<!-- wp:paragraph {"className":"is-style-notes"} -->
+				<p class="is-style-notes">Nous proposons <em>régulièrement</em> des conférences et des ateliers sur des sujets très variés : du <em>matériel</em> à la découverte du ciel en passant par l’imagerie. Vous trouverez sur la page <em>agenda</em> le détail de notre programmation.</p>
 				<!-- /wp:paragraph --></div>
 			<!-- /wp:group -->
 
@@ -248,8 +260,8 @@
 						<h2 class="wp-block-heading has-xx-large-font-size">Le livre du mois</h2>
 						<!-- /wp:heading -->
 
-						<!-- wp:paragraph {"className":"is-style-text-subtitle"} -->
-						<p class="is-style-text-subtitle">
+						<!-- wp:paragraph {"className":"is-style-default"} -->
+						<p class="is-style-default">
 							A fine collection of moments in time featuring photographs from Louis Fleckenstein, Paul Strand and Asahachi Kōno.						</p>
 						<!-- /wp:paragraph -->
 
@@ -395,6 +407,3 @@
 	<!-- /wp:group --></div>
 <!-- /wp:group -->
 
-<!-- wp:paragraph -->
-<p></p>
-<!-- /wp:paragraph -->

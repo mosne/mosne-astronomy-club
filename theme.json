@@ -39,6 +39,11 @@
 					"color": "#F3F3F3",
 					"name": "Accent 5",
 					"slug": "accent-5"
+				},
+				{
+					"color": "#cc0000",
+					"name": "Alert",
+					"slug": "aler"
 				}
 			]
 		},
