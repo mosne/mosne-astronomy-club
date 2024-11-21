@@ -16,3 +16,50 @@ Tags: twentytwentyfive
 Tags: one-column, custom-colors, custom-menu, custom-logo, editor-style, featured-images, full-site-editing, block-patterns, rtl-language-support, sticky-post, threaded-comments, translation-ready, wide-blocks, block-styles, style-variations, accessibility-ready, blog, portfolio, news
 */
 
+/* add red overlay  like a night filter */
+.theme-dark body {
+ --mosne-dark-palette-base: #2F0002;
+ --mosne-dark-palette-contrast: #F80605;
+ --mosne-dark-palette-accent-1: #2F0002;
+ --mosne-dark-palette-accent-2: #2F0002;
+ --mosne-dark-palette-accent-3: #2F0002;
+ --mosne-dark-palette-accent-4: #2F0002;
+ --mosne-dark-palette-accent-5: #140001;
+ --mosne-dark-palette-nm-900: #140001;
+ --mosne-dark-palette-nm-700: #2F0002;
+ --mosne-dark-palette-nm-400: #A1070D;
+ --mosne-dark-palette-nm-300: #F80605; 
+ --wp--preset--color--base: var(--mosne-dark-palette-base, #2F0002);
+ --wp--preset--color--contrast: var(--mosne-dark-palette-contrast, #F80605);
+ --wp--preset--color--accent-1: var(--mosne-dark-palette-accent-1, #2F0002);
+ --wp--preset--color--accent-2: var(--mosne-dark-palette-accent-2, #2F0002);
+ --wp--preset--color--accent-3: var(--mosne-dark-palette-accent-3, #2F0002);
+ --wp--preset--color--accent-4: var(--mosne-dark-palette-accent-4, #2F0002);
+ --wp--preset--color--accent-5: var(--mosne-dark-palette-accent-5, #140001);
+ --wp--preset--color--nm-900: var(--mosne-dark-palette-nm-900, #140001);
+ --wp--preset--color--nm-700: var(--mosne-dark-palette-nm-700, #2F0002);
+ --wp--preset--color--nm-400: var(--mosne-dark-palette-nm-400, #A1070D);
+ --wp--preset--color--nm-300: var(--mosne-dark-palette-nm-300, #F80605); 
+ prefers-color-scheme: dark;
+ background-color: var(--mosne-dark-palette-nm-900);
+}
+
+.theme-dark::before{
+    content: "";
+    background-color: #f00;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 9999999;
+    opacity: .9;
+    mix-blend-mode: multiply;
+    pointer-events: none;
+}
+.sugar-calendar-event-list-block.sugar-calendar-event-list-block__list-view {
+    color: var(--wp--preset--color--contrast) !important;
+}
+.sugar-calendar-event-list-block.sugar-calendar-event-list-block__list-view * {
+    color: currentColor !important;
+}

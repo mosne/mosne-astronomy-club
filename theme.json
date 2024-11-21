@@ -41,9 +41,24 @@
 					"slug": "accent-5"
 				},
 				{
-					"color": "#cc0000",
-					"name": "Alert",
-					"slug": "aler"
+					"color": "#140001",
+					"name": "Night mode 900",
+					"slug": "nm-900"
+				},
+				{
+					"color": "#2F0002",
+					"name": "Night mode 700",
+					"slug": "nm-700"
+				},
+				{
+					"color": "#A1070D",
+					"name": "Night mode 400",
+					"slug": "nm-400"
+				},
+				{
+					"color": "#F80605",
+					"name": "Night mode 300",
+					"slug": "nm-300"
 				}
 			]
 		},

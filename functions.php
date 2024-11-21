@@ -1,5 +1,21 @@
 <?php
 /**
+ * Register theme styles
+ */
+function mosne_astronomy_club_register_styles() {
+	$theme_version = wp_get_theme()->get( 'Version' );
+	wp_register_style(
+		'mosne-astronomy-club-style',
+		get_stylesheet_directory_uri() . '/style.css',
+		array(),
+		$theme_version,
+	);
+	wp_enqueue_style( 'mosne-astronomy-club-style' );
+}
+add_action( 'wp_enqueue_scripts', 'mosne_astronomy_club_register_styles' );
+
+
+/**
  * Register custom block styles
  */
 if ( function_exists( 'register_block_style' ) ) {
