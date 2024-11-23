@@ -1,0 +1,69 @@
+{
+	"version": 3,
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"title": "Space",
+	"slug": "space",
+	"settings": {
+		"typography": {
+			"fontFamilies": [
+				{
+					"name": "Manrope",
+					"slug": "manrope",
+					"fontFamily": "Manrope, sans-serif",
+					"fontFace": [
+						{
+							"src": [
+								"file:./assets/fonts/manrope/Manrope-VariableFont_wght.woff2"
+							],
+							"fontWeight": "200 800",
+							"fontStyle": "normal",
+							"fontFamily": "Manrope"
+						}
+					]
+				},
+				{
+					"fontFamily": "\"Space Mono\", monospace",
+					"name": "Space Mono",
+					"slug": "space-mono",
+					"fontFace": [
+						{
+							"fontFamily": "\"Space Mono\"",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/space-mono/space-mono-400-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "\"Space Mono\"",
+							"fontStyle": "italic",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/space-mono/space-mono-400-italic.woff2"
+							]
+						}
+					]
+				}
+			]
+		}
+	},
+	"styles": {
+		"typography": {
+			"fontFamily": "var:preset|font-family|manrope",
+			"fontSize": "var:preset|font-size|large",
+			"fontWeight": "300",
+			"letterSpacing": "-0.1px",
+			"lineHeight": "1.4"
+		},
+		"blocks": {
+			"core/post-date": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--space-mono)"
+				}
+			},
+			"core/quote": {
+				"css": "& cite { font-family: var(--wp--preset--font-family--space-mono); }"
+			}
+		}
+	}
+}

@@ -63,3 +63,19 @@ Tags: one-column, custom-colors, custom-menu, custom-logo, editor-style, feature
 .sugar-calendar-event-list-block.sugar-calendar-event-list-block__list-view * {
     color: currentColor !important;
 }
+
+/* elementor fix */
+
+.elementor-page .wp-block-post-title{
+    text-align: center;
+}
+
+.ai1ec-main-container,
+.elementor-page .elementor[data-elementor-type="wp-page"]{
+    width: 100%;
+    max-width: var(--wp--style--global--wide-size);
+}
+
+.ai1ec-main-container .timely img, #ai1ec-container img{
+    max-width: 100%;
+}
