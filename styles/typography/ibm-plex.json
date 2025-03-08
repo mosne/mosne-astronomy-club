@@ -1,0 +1,91 @@
+{
+	"version": 3,
+	"$schema": "https://schemas.wp.org/wp/6.7/theme.json",
+	"title": "IBM Plex",
+	"slug": "ibm-plex",
+	"settings": {
+		"typography": {
+			"fontFamilies": [
+				{
+					"name": "IBM Plex Sans",
+					"slug": "ibm-plex-sans",
+					"fontFamily": "\"IBM Plex Sans\", sans-serif",
+					"fontFace": [
+						{
+							"fontFamily": "IBM Plex Sans",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/ibm-plex-sans-v21-latin/ibm-plex-sans-v21-latin-regular.woff2"
+							]
+						},
+						{
+							"fontFamily": "IBM Plex Sans",
+							"fontStyle": "italic",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/ibm-plex-sans-v21-latin/ibm-plex-sans-v21-latin-italic.woff2"
+							]
+						},
+						{
+							"fontFamily": "IBM Plex Sans",
+							"fontStyle": "normal",
+							"fontWeight": "600",
+							"src": [
+								"file:./assets/fonts/ibm-plex-sans-v21-latin/ibm-plex-sans-v21-latin-600.woff2"
+							]
+						}
+					]
+				},
+				{
+					"name": "IBM Plex Mono",
+					"slug": "ibm-plex-mono",
+					"fontFamily": "\"IBM Plex Mono\", monospace",
+					"fontFace": [
+						{
+							"fontFamily": "IBM Plex Mono",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/ibm-plex-mono-v19-latin/ibm-plex-mono-v19-latin-regular.woff2"
+							]
+						},
+						{
+							"fontFamily": "IBM Plex Mono",
+							"fontStyle": "italic",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/ibm-plex-mono-v19-latin/ibm-plex-mono-v19-latin-italic.woff2"
+							]
+						}
+					]
+				}
+			]
+		}
+	},
+	"styles": {
+		"typography": {
+			"fontFamily": "var(--wp--preset--font-family--ibm-plex-sans)",
+			"fontSize": "var(--wp--preset--font-size--large)",
+			"fontWeight": "400",
+			"letterSpacing": "0.005em",
+			"lineHeight": "1.4"
+		},
+		"blocks": {
+			"core/post-date": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--ibm-plex-mono)"
+				}
+			},
+			"core/quote": {
+				"typography": {
+					"elements": {
+						"cite": {
+							"fontFamily": "var(--wp--preset--font-family--ibm-plex-mono)"
+						}
+					}
+				}
+			}
+		}
+	}
+}

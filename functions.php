@@ -11,8 +11,17 @@ function mosne_astronomy_club_register_styles() {
 		$theme_version,
 	);
 	wp_enqueue_style( 'mosne-astronomy-club-style' );
-}
-add_action( 'wp_enqueue_scripts', 'mosne_astronomy_club_register_styles' );
+
+	wp_deregister_script( 'tabor-dark-mode-toggle-block-inline' );
+	wp_register_script( 'mosne-dark-mode-toggle-block-inline', '' );
+	wp_enqueue_script( 'mosne-dark-mode-toggle-block-inline' );
+	wp_add_inline_script( 'mosne-dark-mode-toggle-block-inline', '( function() {
+			const body = document.documentElement;
+			const isDarkMode = localStorage.getItem("darkMode") === "enabled";
+			body.classList.toggle("theme-dark", isDarkMode);
+		} )();' );
+	}
+add_action( 'wp_enqueue_scripts', 'mosne_astronomy_club_register_styles', 99 );
 
 
 /**
