@@ -12,7 +12,7 @@
 					"fontFamily": "\"IBM Plex Sans\", sans-serif",
 					"fontFace": [
 						{
-							"fontFamily": "IBM Plex Sans",
+							"fontFamily": "\"IBM Plex Sans\", sans-serif",
 							"fontStyle": "normal",
 							"fontWeight": "400",
 							"src": [
@@ -20,7 +20,7 @@
 							]
 						},
 						{
-							"fontFamily": "IBM Plex Sans",
+							"fontFamily": "\"IBM Plex Sans\", sans-serif",
 							"fontStyle": "italic",
 							"fontWeight": "400",
 							"src": [
@@ -28,7 +28,7 @@
 							]
 						},
 						{
-							"fontFamily": "IBM Plex Sans",
+							"fontFamily": "\"IBM Plex Sans\", sans-serif",
 							"fontStyle": "normal",
 							"fontWeight": "600",
 							"src": [
@@ -43,7 +43,7 @@
 					"fontFamily": "\"IBM Plex Mono\", monospace",
 					"fontFace": [
 						{
-							"fontFamily": "IBM Plex Mono",
+							"fontFamily": "\"IBM Plex Mono\", monospace",
 							"fontStyle": "normal",
 							"fontWeight": "400",
 							"src": [
@@ -51,7 +51,7 @@
 							]
 						},
 						{
-							"fontFamily": "IBM Plex Mono",
+							"fontFamily": "\"IBM Plex Mono\", monospace",
 							"fontStyle": "italic",
 							"fontWeight": "400",
 							"src": [
@@ -68,7 +68,7 @@
 			"fontFamily": "var(--wp--preset--font-family--ibm-plex-sans)",
 			"fontSize": "var(--wp--preset--font-size--large)",
 			"fontWeight": "400",
-			"letterSpacing": "0.005em",
+			"letterSpacing": "0.05em",
 			"lineHeight": "1.4"
 		},
 		"blocks": {
@@ -78,9 +78,9 @@
 				}
 			},
 			"core/quote": {
-				"typography": {
-					"elements": {
-						"cite": {
+				"elements": {
+					"cite": {
+						"typography": {
 							"fontFamily": "var(--wp--preset--font-family--ibm-plex-mono)"
 						}
 					}
